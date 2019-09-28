@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM2940-5.0
+D 1 Amp - LDO Voltage Regulator, 5.0V fixed output, TO-220/SOT-223
+K linear regulator ldo fixed positive
+F http://www.ti.com/lit/ds/symlink/lm2940c.pdf
+$ENDCMP
+#
+#End Doc Library

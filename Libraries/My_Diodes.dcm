@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1N5822
+D DIODE SCHOTTKY 40V 3A DO201AD
+K 1N5822
+$ENDCMP
+#
+#End Doc Library
