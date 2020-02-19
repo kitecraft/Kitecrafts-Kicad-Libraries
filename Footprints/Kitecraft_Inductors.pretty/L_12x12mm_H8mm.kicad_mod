@@ -1,4 +1,4 @@
-(module L_12x12mm_H8mm (layer F.Cu) (tedit 5BD710A0)
+(module L_12x12mm_H8mm (layer F.Cu) (tedit 5DE7A2F1)
   (descr "Choke, SMD, 12x12mm 8mm height")
   (tags "Choke SMD")
   (attr smd)
@@ -85,9 +85,9 @@
   (fp_circle (center -2.1 3) (end -1.8 3.25) (layer F.Fab) (width 0.1))
   (pad 1 smd rect (at -4.95 0) (size 2.9 5.4) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 4.95 0) (size 2.9 5.4) (layers F.Cu F.Paste F.Mask))
-  (model ":My Packages 3D:My_Inductors.pretty/L_12x12mm_H8mm.wrl"
-    (offset (xyz 0 0 1.015999984741211))
-    (scale (xyz 0.3937 0.3937 0.3937))
+  (model :Kitecraft_Inductors_3D:L_12x12mm_H8mm.step
+    (offset (xyz 0 0 1))
+    (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
 )

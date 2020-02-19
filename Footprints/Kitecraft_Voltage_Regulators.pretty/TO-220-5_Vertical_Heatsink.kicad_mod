@@ -1,4 +1,4 @@
-(module TO-220-5_Vertical_Heatsink (layer F.Cu) (tedit 5BD722B4)
+(module TO-220-5_Vertical_Heatsink (layer F.Cu) (tedit 5DE7A357)
   (descr "TO-220-5, Vertical, RM 1.7mm, Pentawatt, Multiwatt-5, see http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-to-220/to-220_5_05-08-1421_straight_lead.pdf")
   (tags "TO-220-5 Vertical RM 1.7mm Pentawatt Multiwatt-5")
   (fp_text reference REF** (at 3.4 -4.27) (layer F.SilkS)
@@ -37,9 +37,9 @@
   (pad 3 thru_hole oval (at 3.4 0) (size 1.275 1.8) (drill 1.1) (layers *.Cu *.Mask))
   (pad 4 thru_hole oval (at 5.1 0) (size 1.275 1.8) (drill 1.1) (layers *.Cu *.Mask))
   (pad 5 thru_hole oval (at 6.8 0) (size 1.275 1.8) (drill 1.1) (layers *.Cu *.Mask))
-  (model ":My Packages 3D:My_Voltage_Regulators.3dshapes/TO-220-5_Vertical_Heatsink.wrl"
+  (model :Kitecraft_Voltage_Regulators_3D:TO-220-5_Vertical_Heatsink.step
     (at (xyz 0 0 0))
-    (scale (xyz 0.3937007874015748 0.3937007874015748 0.3937007874015748))
+    (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
 )
