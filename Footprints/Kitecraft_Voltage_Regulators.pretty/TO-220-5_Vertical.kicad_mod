@@ -1,4 +1,4 @@
-(module TO-220-5_Vertical (layer F.Cu) (tedit 5AD11EBF)
+(module TO-220-5_Vertical (layer F.Cu) (tedit 5F469D12)
   (descr "TO-220-5, Vertical, RM 1.7mm, Pentawatt, Multiwatt-5, see http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-to-220/to-220_5_05-08-1421_straight_lead.pdf")
   (tags "TO-220-5 Vertical RM 1.7mm Pentawatt Multiwatt-5")
   (fp_text reference REF** (at 3.4 -4.27) (layer F.SilkS)
