@@ -1,4 +1,4 @@
-(module Arduino_Pro_Mini-No_Prog_Header-No_A4-A7 (layer F.Cu) (tedit 5B5CE38A)
+(module Arduino_Pro_Mini-No_Prog_Header-No_A4-A7 (layer F.Cu) (tedit 5F654793)
   (descr "ARDUINO PRO MINI FOOTPRINT")
   (tags "ARDUINO PRO MINI FOOTPRINT")
   (attr virtual)
@@ -60,4 +60,9 @@
     (solder_mask_margin 0.1016))
   (pad 24 thru_hole circle (at 7.62 -12.7) (size 1.8796 1.8796) (drill 1.016) (layers *.Cu *.Mask)
     (solder_mask_margin 0.1016))
+  (model ":Kitecrafts Boards:Arduino_Pro_Mini-No_Prog_Header-No_A4-A7.step"
+    (offset (xyz -14.35 0.2 -8.1))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 -90))
+  )
 )

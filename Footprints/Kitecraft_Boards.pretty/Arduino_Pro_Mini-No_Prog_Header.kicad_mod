@@ -1,4 +1,4 @@
-(module Arduino_Pro_Mini-No_Prog_Header (layer F.Cu) (tedit 5B5C5A59)
+(module Arduino_Pro_Mini-No_Prog_Header (layer F.Cu) (tedit 5F654716)
   (descr "ARDUINO PRO MINI FOOTPRINT")
   (tags "ARDUINO PRO MINI FOOTPRINT")
   (attr virtual)
@@ -68,4 +68,9 @@
     (solder_mask_margin 0.1016))
   (pad A7 thru_hole circle (at 4.7625 6.50748) (size 1.8796 1.8796) (drill 1.016) (layers *.Cu *.Mask)
     (solder_mask_margin 0.1016))
+  (model ":Kitecrafts Boards:Arduino_Pro_Mini - All Pins - Program Pins Up.step"
+    (offset (xyz -14.4 0.2 -12.3))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 -90))
+  )
 )
