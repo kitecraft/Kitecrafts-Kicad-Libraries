@@ -21,4 +21,37 @@ X 4 4 300 -100 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# MJTP1230
+#
+DEF MJTP1230 S 0 40 Y Y 1 F N
+F0 "S" 0 200 60 H V C CNN
+F1 "MJTP1230" 0 -200 60 H V C CNN
+F2 "digikey-footprints:Switch_Tactile_THT_6x6mm_MJTP1230" 200 200 60 H I L CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/APEM%20Components%20PDFs/MJTP%20Series-6MM.pdf" 200 300 60 H I L CNN
+F4 "679-2428-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "MJTP1230" 200 500 60 H I L CNN "MPN"
+F6 "Switches" 200 600 60 H I L CNN "Category"
+F7 "Tactile Switches" 200 700 60 H I L CNN "Family"
+F8 "https://media.digikey.com/pdf/Data%20Sheets/APEM%20Components%20PDFs/MJTP%20Series-6MM.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/apem-inc/MJTP1230/679-2428-ND/1798037" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "SWITCH TACTILE SPST-NO 0.05A 12V" 200 1000 60 H I L CNN "Description"
+F11 "APEM Inc." 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+C -60 0 10 0 1 0 N
+C 60 0 10 0 1 0 N
+P 2 0 1 0 -100 100 -100 -100 N
+P 2 0 1 0 -70 0 -100 0 N
+P 2 0 1 0 -70 50 70 50 N
+P 2 0 1 0 100 -100 100 100 N
+P 2 0 1 0 100 0 70 0 N
+P 2 1 1 0 -40 110 35 110 N
+P 2 1 1 0 0 110 0 50 N
+X ~ 1 -200 100 100 R 50 50 1 1 P
+X ~ 2 -200 -100 100 R 50 50 1 1 P
+X ~ 3 200 100 100 L 50 50 1 1 P
+X ~ 4 200 -100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 #End Library
