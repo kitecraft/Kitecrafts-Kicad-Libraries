@@ -1,4 +1,4 @@
-(module DS18B20-TO-92-3 (layer F.Cu) (tedit 60CAAF13)
+(module DS18B20-TO-92-3 (layer F.Cu) (tedit 60D276EC)
   (fp_text reference REF** (at 2.6 -3.35) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -22,9 +22,9 @@
   (fp_arc (start 1.972 -1.062) (end 0.772 1.238) (angle 90) (layer F.Fab) (width 0.15))
   (fp_arc (start 1.972 -1.062) (end 4.272 -2.262) (angle 90) (layer F.Fab) (width 0.15))
   (fp_arc (start 1.972 -1.112) (end 3.872 0.838) (angle 90) (layer F.SilkS) (width 0.15))
-  (pad 3 thru_hole rect (at 4.572 -0.762) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask))
-  (pad 1 thru_hole circle (at -0.628 -0.762) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask))
-  (pad 2 thru_hole circle (at 1.972 -0.762) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Mask))
+  (pad 1 thru_hole rect (at 4.572 -0.762) (size 1.3 1.3) (drill 0.7) (layers *.Cu *.Mask))
+  (pad 3 thru_hole circle (at -0.628 -0.762) (size 1.3 1.3) (drill 0.7) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 1.972 -0.762) (size 1.3 1.3) (drill 0.7) (layers *.Cu *.Mask))
   (model ":Kitecrafts Sensors:DS18B20 - TO-92-3 Bent-Leads.step"
     (offset (xyz 2 1 6.5))
     (scale (xyz 1 1 1))
