@@ -1,6 +1,6 @@
 (footprint "SPDT_Switch_3mm" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 6260D328)
+  (tedit 630EC293)
   (attr through_hole)
   (fp_text reference "REF**" (at 0.25 -2.54 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
@@ -14,9 +14,9 @@
   (pad "1" thru_hole circle (at -2.54 0) (size 1.524 1.524) (drill 0.6) (layers *.Cu *.Mask) (tstamp 587a157d-dedf-4558-a037-1a94bbba1848))
   (pad "2" thru_hole circle (at 0 0) (size 1.524 1.524) (drill 0.6) (layers *.Cu *.Mask) (tstamp 99030c03-63b4-49ba-b5ab-4d56974f7963))
   (pad "3" thru_hole circle (at 2.54 0) (size 1.524 1.524) (drill 0.6) (layers *.Cu *.Mask) (tstamp db83d0af-e085-4050-8496-fa2ebdecbd62))
-  (model ":Kitecrafts Switches:Vertical slide switch SS-12D00G3 High Knob 3mm SPDT.step"
+  (model ":Kitecrafts3D:Kitecraft_Switches.3dshapes/Vertical slide switch SS-12D00G3 High Knob 3mm SPDT.step"
     (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 90))
+    (scale (xyz 0.9 0.9 0.9))
+    (rotate (xyz -90 0 -90))
   )
 )

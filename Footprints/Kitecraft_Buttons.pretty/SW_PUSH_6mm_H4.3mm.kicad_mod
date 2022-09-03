@@ -1,10 +1,10 @@
 (footprint "SW_PUSH_6mm_H4.3mm" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61E308D0)
+  (tedit 63137B2A)
   (descr "tactile push button, 6x6mm e.g. PHAP33xx series, height=4.3mm")
   (tags "tact sw push 6mm")
   (attr through_hole)
-  (fp_text reference "REF**" (at -5.08 -0.508 270) (layer "F.SilkS")
+  (fp_text reference "e" (at -5.08 -0.508 270) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp c58960d9-4cac-4036-ad2e-1aef26946dae)
   )
@@ -42,8 +42,8 @@
   (pad "2" thru_hole circle (at -2.286 3.302 180) (size 2 2) (drill 1.1) (layers *.Cu *.Mask) (tstamp a76fbfb4-5989-4acc-8232-260830730951))
   (pad "3" thru_hole circle (at 2.214 -3.198 180) (size 2 2) (drill 1.1) (layers *.Cu *.Mask) (tstamp 3466cda7-8b6d-422c-92e4-d22bbe2d4a4d))
   (pad "4" thru_hole circle (at 2.214 3.302 180) (size 2 2) (drill 1.1) (layers *.Cu *.Mask) (tstamp b06ce446-c27e-47df-a4e3-d10b64552c26))
-  (model ":Kitecrafts Buttons:SW_PUSH_6mm_H4.3mm.step"
-    (offset (xyz -0.02 -0.03 0))
+  (model ":Kitecrafts3D:Kitecraft_Buttons.3dshapes/SW_PUSH_6mm_H4.3mm.step"
+    (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
   )
