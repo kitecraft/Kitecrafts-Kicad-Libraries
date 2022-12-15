@@ -1,6 +1,6 @@
 (footprint "ULN2003 on Socket" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62870E4C)
+  (tedit 632F3CFA)
   (attr through_hole)
   (fp_text reference "REF**" (at 3.94 -3.2) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
@@ -51,6 +51,11 @@
   (pad "16" thru_hole circle (at 7.62 0) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask) (tstamp f9f0de60-e760-451a-af70-1e13c9c8edc8))
   (model ":Kitecrafts Package DIP:ULN2003 on Socket.step"
     (offset (xyz 7.5 -13 -1.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
+  )
+  (model ":Kitecrafts3D:Kitecraft_Package_DIP.3dshapes/ULN2003 on Socket.step"
+    (offset (xyz 7.5 -13 -2))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))
   )
